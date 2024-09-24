@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 標楷體;
+    font-weight: bolder;
+    background: url(./assets/image/sky.png) center no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    max-width:100%;
+     /*font-size: 120%;
+    background: #F8F8FF;*/
+}
+.header{
+    /*width:30%;*/
+    width:100%;
+    max-width:390px;
+    margin:140px auto 0px;
+    color:#fff;
+    background: #253746;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+.content{
+    /*width:30%;*/
+    width:100%;
+    max-width:390px;
+    margin:0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background:#FFD762 ;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.error{
+    width:86%;
+    margin:0px auto;
+    padding:10px;
+    border:1px solid #a94442;
+    color:#a94442;
+    background:#F2DEDE;
+    border-radius: 5px;
+    text-align: left;
+}
+.success{
+    color:#3c763D;
+    background: #dff0d8;
+    border: 1px solid #3c763D;
+    margin-bottom: 20px;
+}
+
+/*@media screen and (max-width: 767px) {
+
+    .content{
+        width:100%;
+        height:auto;
+    }
+    
+    .header{
+        width:100%;
+        height:auto;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
